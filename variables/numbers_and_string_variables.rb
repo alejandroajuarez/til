@@ -41,3 +41,22 @@ puts word1.upcase + ", and " + word2.upcase
 word = "somebody"
 
 puts word.length
+
+# Write a program that uses a variable to store a number with decimals, then prints the number as an integer.
+
+number = 23.4
+
+puts number.to_i
+
+# Write a program that uses a variable to store two numbers, then prints the two numbers multiplied together.
+
+number1 = 2
+number2 = 4
+
+puts number1 * number2
+
+# Write a program that uses a variable to store a word, then prints the word with all lowercase letters.
+
+word = "NOW YOU'RE JUST SOMEBBODY THAT I USED TO KNOW"
+
+puts word.downcase
